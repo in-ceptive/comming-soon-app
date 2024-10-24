@@ -3,21 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ height: "100%", width: "100%", boxSizing: "border-box", padding: 0, margin: 0 }}>
+      <img src="https://storage.googleapis.com/3d-container/comingsoon-ezgif.com-video-to-gif-converter.gif" height={1000} width={1800} />
     </div>
   );
 }
